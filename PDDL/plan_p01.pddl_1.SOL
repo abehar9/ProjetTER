@@ -1,0 +1,19 @@
+
+; Version LPG-td-1.4
+; Seed 69182121
+; Command line: /TER/LPG-td-1.4/lpg-td -o /TER/PDDL/domain2.pddl -f /TER/PDDL/p01.pddl -n 1 
+; Problem /TER/PDDL
+; Actions having STRIPS duration
+; Time 0.03
+; Search time 0.01
+; Parsing time 0.01
+; Mutex time 0.01
+; NrActions 7
+
+0:   (PICK-UP PKG1 P1 A1) [1]
+1:   (MOVE P1 A1 S1) [1]
+2:   (PROCESS-PACKAGE P1 PKG1 S1) [1]
+3:   (MOVE P1 S1 L1) [1]
+4:   (DROP-OFF P1 PKG1 L1) [1]
+5:   (MOVE P1 L1 S1) [1]
+6:   (MOVE P1 S1 A1) [1]
