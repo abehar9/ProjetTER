@@ -1,4 +1,4 @@
-(define (domain logistique-dpc)
+≤(define (domain logistique-dpc)
     (:requirements :typing)
 
     (:types 
