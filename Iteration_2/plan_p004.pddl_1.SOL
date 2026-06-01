@@ -1,0 +1,14 @@
+
+; Version LPG-td-1.0
+; Seed 14695850
+; Command line: ../lpg-td-1.0 -o domain_02.pddl -f p004.pddl -n 2 -timesteps 
+; Problem p004.pddl
+; Actions having STRIPS duration
+; Time 0.00
+; Search time 0.00
+; Parsing time 0.00
+; Mutex time 0.00
+; NrActions 0
+
+
+no solution
