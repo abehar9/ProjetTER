@@ -86,7 +86,7 @@
     ;;     Package contains multiple items
     ;;
     ;; (contains ?p ?item)
-    ;;     Package contains an item
+    ;;     Package contains an item 
     ;;
     ;; (empty ?p)
     ;;     Package is empty (used for building new pallets)
