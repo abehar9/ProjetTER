@@ -60,6 +60,7 @@ files included: with descriptions
 1. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
    - LPG-td Linux
    - LPG-td Windows
+  Liens: https://lpg.unibs.it/lpg/
 2. **Extraction** :
    - Sous **Linux**, placez l'archive dans votre dossier et exécutez :
      ```bash
