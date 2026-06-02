@@ -114,6 +114,8 @@ Pour exécuter le solveur, utilisez la syntaxe suivante dans votre terminal :
 
 ./lpg-td -o <domaine.pddl> -f <probleme.pddl> -n 1`
 
+**Configuration avancée** : Consultez le fichier `README-LPGTD`
+
 ### 5. Pour commencer TO DO
 Pour prendre en main le solveur, suivez ces étapes :
 
