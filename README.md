@@ -51,7 +51,7 @@ files included: with descriptions
 ### 1. Prérequis
 - **Système d'exploitation** : Windows, Linux (Debian recommandé pour la compatibilité native).
 - **Terminal** : Accès à un terminal (bash, PowerShell, etc.).
-- **Solveur** : Exécutable `lpg-td` (téléchargé et extrait dans le répertoire du projet).
+- **Solveur** : Exécutable `lpg-td` (téléchargé et extrait dans le répertoire du projet) - Consultez le fichier `README-LPGTD`
 - **Optionnel** : Docker (recommandé si vous rencontrez des problèmes de dépendances sur votre système hôte).
 
 
