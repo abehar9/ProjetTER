@@ -56,22 +56,23 @@ files included: with descriptions
 
 
 ### 2. Installation
-**Sans Docker:**
-1. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
+1. Allez sur le site https://lpg.unibs.it/lpg/
+2. Entrez vos données personnelles : adresse e-mail, nom
+3. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
    - LPG-td Linux
    - LPG-td Windows
-   - Source: https://lpg.unibs.it/lpg/
-3. **Extraction** :
+   - Source: https://lpg.unibs.it/lpg/download-lpg-td.html
+4. **Extraction** :
    - Sous **Linux**, placez l'archive dans votre dossier et exécutez :
      ```bash
      gunzip lpgtd-linux.tar.gz
      tar xvf lpgtd-linux.tar
      ```
    - Sous **Windows**, utilisez un outil comme WinZip ou 7-Zip pour extraire les fichiers.
-4. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
+5. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
 
 
-**Avec Docker:**
+**Si vous avez besoin de Docker:**
 
 **1. Installation de Docker Desktop**
 1. Accédez à la page officielle : [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/).
