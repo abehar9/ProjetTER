@@ -1,4 +1,4 @@
-# Conception d’un outil de Optimization Chez LPC
+# Conception d’un outil d'Optimization Chez LPC
 
 ## Présentation
 
