@@ -60,15 +60,15 @@ files included: with descriptions
 1. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
    - LPG-td Linux
    - LPG-td Windows
-  Liens: https://lpg.unibs.it/lpg/
-2. **Extraction** :
+   - Source: https://lpg.unibs.it/lpg/
+3. **Extraction** :
    - Sous **Linux**, placez l'archive dans votre dossier et exécutez :
      ```bash
      gunzip lpgtd-linux.tar.gz
      tar xvf lpgtd-linux.tar
      ```
    - Sous **Windows**, utilisez un outil comme WinZip ou 7-Zip pour extraire les fichiers.
-3. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
+4. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
 
 
 **Avec Docker:**
