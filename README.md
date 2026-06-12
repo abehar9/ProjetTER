@@ -1,4 +1,4 @@
-# Conception d’un outil de Optimization Chez LPC
+# Conception d’un outil d'Optimization Chez LPC
 
 ## Présentation
 
@@ -51,26 +51,28 @@ files included: with descriptions
 ### 1. Prérequis
 - **Système d'exploitation** : Windows, Linux (Debian recommandé pour la compatibilité native).
 - **Terminal** : Accès à un terminal (bash, PowerShell, etc.).
-- **Solveur** : Exécutable `lpg-td` (téléchargé et extrait dans le répertoire du projet).
+- **Solveur** : Exécutable `lpg-td` (téléchargé et extrait dans le répertoire du projet) - Consultez le fichier `README-LPGTD`
 - **Optionnel** : Docker (recommandé si vous rencontrez des problèmes de dépendances sur votre système hôte).
 
 
 ### 2. Installation
-**Sans Docker:**
-1. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
+1. Allez sur le site https://lpg.unibs.it/lpg/
+2. Entrez vos données personnelles : adresse e-mail, nom
+3. **Téléchargement** : Téléchargez l'archive correspondant à votre système :
    - LPG-td Linux
    - LPG-td Windows
-2. **Extraction** :
+   - Source: https://lpg.unibs.it/lpg/download-lpg-td.html
+4. **Extraction** :
    - Sous **Linux**, placez l'archive dans votre dossier et exécutez :
      ```bash
      gunzip lpgtd-linux.tar.gz
      tar xvf lpgtd-linux.tar
      ```
    - Sous **Windows**, utilisez un outil comme WinZip ou 7-Zip pour extraire les fichiers.
-3. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
+5. **Vérification** : Assurez-vous que le fichier `lpg-td` (ou `lpg-td.exe`) est présent dans le répertoire de travail.
 
 
-**Avec Docker:**
+**Si vous avez besoin de Docker:**
 
 **1. Installation de Docker Desktop**
 1. Accédez à la page officielle : [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/).
@@ -111,6 +113,8 @@ Ouvrir un terminal et exécuter :
 Pour exécuter le solveur, utilisez la syntaxe suivante dans votre terminal :
 
 ./lpg-td -o <domaine.pddl> -f <probleme.pddl> -n 1`
+
+**Configuration avancée** : Consultez le fichier `README-LPGTD`
 
 ### 5. Pour commencer TO DO
 Pour prendre en main le solveur, suivez ces étapes :
