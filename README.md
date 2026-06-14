@@ -43,8 +43,14 @@ En PDDL, une tâche de planification est décrite à l’aide de deux fichiers :
 
 ## Guide du Projet TO DO
 
-TODO  
-files included: with descriptions 
+### 1. Branches
+- **one_model_iterations** : Le processus de développement du modèle, intégrant tous les processus d'un même domaine, est présenté ici. Il comprend six itérations dont la complexité augmente progressivement. Les cinq premières itérations sont fonctionnelles.
+- **Preparation_command** : Affiche les itérations précédant l'obtention de la version fonctionnelle du modèle de commande de préparation
+
+### 2. Fichiers
+- **Documents** : Toute la documentation réalisée dans le cadre de notre projet
+- **Process 2: Command Prep** : La version fonctionnelle du modèle de commande de préparation
+
 
 ## Installation - Projet PDDL avec LPG-td
 
