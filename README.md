@@ -116,15 +116,17 @@ Pour exécuter le solveur, utilisez la syntaxe suivante dans votre terminal :
 
 **Configuration avancée** : Consultez le fichier `README-LPGTD`
 
-### 5. Pour commencer TO DO
+### 5. Pour commencer 
 Pour prendre en main le solveur, suivez ces étapes :
 
-1. **Initialisation** : Commencez avec les fichiers `domainfileX.pddl` et `p00X.pddl` fournis dans le dossier.
-2. **Observation** : Exécutez la commande de base (`-n 1`) pour observer le format de sortie et les solutions proposées par le solveur.
+1. **Initialisation** : Commencez avec les fichiers `Process 2: Command Prep/domain_01.pddl` et `p001.pddl` fournis dans le dossier.
+2. **Observation** : Exécutez la commande de base (`-n 1`) pour observer le format de sortie et les solutions proposées par le solveur. 
 3. **Expérimentation** :
    - **Comparaison** : Testez différents fichiers de problèmes pour comparer les temps de résolution.
    - **Analyse** : Modifiez les fichiers de domaine pour ajouter de la complexité (Timed Initial Literals, Derived Predicates) et analysez l'impact sur les performances du moteur de recherche.
 4. **Configuration avancée** : Consultez le fichier `README-LPGTD` original situé dans le dossier du projet pour ajuster les paramètres de recherche (`-noise`, `-seed`, `-cputime`, etc.) afin d'optimiser les résultats selon vos besoins spécifiques.
+
+**Attention** : Les fichier qui finissent par '.SOL' sont les résultats données par le solveur. 
 
 
 ### 6. Aide et Dépannage
@@ -132,14 +134,22 @@ Pour prendre en main le solveur, suivez ces étapes :
   ```bash
   chmod +x lpg-td.
 
-## Vidéo de démonstration TO DO 
-TO DO
 
 ## Points à Améliorer TO DO
-xxx
+1. **Finalisation de la modélisation des quatre processus**
+À ce jour, seule une partie des processus a été entièrement modélisée. La poursuite du projet permettra d'intégrer les quatre processus afin d'obtenir une représentation plus complète et cohérente du système étudié.
+
+2. **Augmentation de la complexité du processus 2**
+Le second processus pourrait être enrichi par l'ajout de contraintes et de scénarios plus réalistes. Cette évolution permettrait d'évaluer la robustesse du modèle face à des situations plus proches des conditions réelles d'exploitation.
+
+3. **Intégration de facteurs ergonomiques**
+L'ajout de critères ergonomiques, tels que la fatigue, les postures de travail ou les contraintes liées aux opérateurs, permettrait d'améliorer la qualité des plans générés et de mieux prendre en compte les aspects humains du système.
+
+4. **Migration vers un solveur prenant en charge des objectifs numériques avancés**
+L'utilisation d'un solveur plus récent ou plus performant offrirait la possibilité d'intégrer des objectifs numériques complexes et des fonctions d'optimisation. Cela permettrait notamment de mieux gérer les ressources, les coûts ou les indicateurs de performance quantitatifs.
 
 
-## Licence TO DO 
+## Licence
 Ce projet a été réalisé à des fins pédagogiques dans le cadre d’un TER à l’Université Grenoble Alpes.
 Il peut être utilisé, modifié ou adapté à des fins non commerciales. 
 
@@ -154,5 +164,4 @@ Maître d’ouvrage :
 
 ## Documentation
 
-TODO
 La documentation complète, incluant le manuel d’installation, est disponible dans le dossier docs/.
