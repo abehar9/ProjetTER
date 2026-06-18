@@ -1,0 +1,72 @@
+
+Le 25/10
+Présentation globale du sujet 
+
+Le 19/12
+1. Contexte et Enjeux
+Objectif principal : Amélioration de la productivité actuelle (jugée insuffisante).
+Volume d'activité : Environ 600 commandes (batchs) par jour, réparties sur des agents traitant chacun environ 30 commandes/jour.
+Clients : Secteurs variés (hôtels, usines chimiques) avec des exigences de livraison différentes (Palettes ou Rolls).
+2. Processus Logistique Actuel
+Réception : Arrivée de palettes hétérogènes (produits mélangés).
+Stockage : Tri et mise en stock en palettes homogènes dans l’entrepôt (système type IKEA).
+Préparation : Picking d'articles variés pour créer des palettes hétérogènes selon les commandes clients. Utilisation du trajet le plus court pour la préparation d’une commande (détails de la commande sur papier).
+3. Contraintes et Pistes de réflexion stratégique
+Nécessité de trier/préparer en fonction du poids des articles ?
+ La difficulté d'une commande varie selon :
+Le poids des articles.
+La hauteur de prélèvement (trop haut ou trop bas).
+La distance de déplacement dans l'entrepôt.
+Encombrement d’un produit.
+Gestion des agents : Idée d'alterner entre "commandes faciles" et "commandes difficiles" ?
+Aménagement : Faut-il acheter du terrain pour agrandir l'espace et ainsi fluidifier le passage pour gagner en productivité ?
+
+Voir le guide
+DUPESSEY CO
+
+
+Le 08/01
+
+Grant : gestion de projet décembre-janvier, fin janvier création de la base de données en collaboration
+L’oral point important, restituer la demande 
+Hardis groupe
+Hardis software -> ask company or company or Pellier Damien to see example of how it works (pddl)
+On a vu ensemble pour le contenu du cahier des charges, de l’échéancier et du plan de développement
+
+
+
+Le 02/02
+Arrivage optimiser 
+Time of plan after using pddl - does it give specific times?
+Diapos de présentation d’Alexandra : https://docs.google.com/presentation/d/1Pf_67O-_r6P3UdKXfy_kIy_E1ysoJNrH/edit?usp=drive_web&ouid=109369273173477990908&rtpof=true
+
+
+
+Le 13/04
+
+3 palettes : européenne, non européenne, et demi palette
+choix des palettes : Lorsque c’est des palettes prioritaire il y a des préférence client 
+Avoir des commandes en exemple
+Ligne de prélèvement : nombre de type de produit diff
+Unité prise : nb de fois ou on prend un colis pour mettre sur la palette
+Étiquette sur la palette pour voir l’avancement
+Possibilité de choisir son ordre
+
+Le 13/05
+
+Précisions sur la compréhension des processus + nouvelles données 
+
+Le 28/04
+
+Présentation & discussion de l’avancement des premières modélisations avec trois problèmes différents
+Nouvelles données recueillis 
+
+Le 04/05
+
+Réunion d’équipe : Présentation de deux projets 
+Réunion avec Taku et Gaspard pour des précisions sur le langage PDDL et le solver LPG
+Maybe to verify the solution returned by the problem, you can try to use VAL: https://github.com/KCL-Planning/VAL 
+For easy access to numeric PDDL benchmarks check the github repo:  https://github.com/ipc2023-numeric/ipc2023-dataset
+
+
+
