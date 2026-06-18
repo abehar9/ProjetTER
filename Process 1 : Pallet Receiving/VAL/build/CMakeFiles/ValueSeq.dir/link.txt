@@ -1,1 +1,0 @@
-/usr/bin/clang++ -stdlib=libc++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ValueSeq.dir/applications/ValueSeq/src/main.cpp.o -o bin/ValueSeq  -Wl,-rpath,@executable_path bin/libVAL.dylib
