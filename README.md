@@ -3,7 +3,8 @@
 ## Présentation
 
 Ce projet a été développé dans le cadre d’un TER (Travail d’Étude et de Recherche) de Master 1 MIASHS parcours Informatique et Cognition de l’Université Grenoble Alpes. Il propose la conception d’un outil de Optimization Chez LPC pour optimiser leur processus logistique. 
-D’après nos échanges avec Mme. Laundry, cheffe de projet, chez DPC les employeurs doivent délivrer environ 600 commandes par jour, normalement réparties sur des agents traitant chacun environ 30 commandes par jour. Le processus logistique actuel est le suivant: réception des palettes hétérogènes (produits mélanges), stockage par tri et mise en stock en palettes homogènes dans l’entrepôt (système type IKEA), et finalement la préparation de commandes par picking d'articles variés pour créer des palettes hétérogènes selon les commandes clients. Selon DPC la productivité actuelle est jugée insuffisante et le côté ergonomie peut être amélioré pour éviter la quantité actuelle d'accidents du travail des employés. 
+
+D’après nos échanges avec Mme. Landry et Mme. Sicco, la répartition des commandes dans l’entreprise est d’environ 600 commandes par jour, normalement réparties sur des agents traitant chacun environ 30 commandes par jour. Le processus logistique actuel est le suivant: réception de palettes homogènes et hétérogènes (produits mélangés), stockage par tri en réalisant des palettes homogènes à partir de palettes hétérogènes et mise en stock de celle-ci dans l’entrepôt en zone dite “rack”. Les employés vont ensuite réaliser des picking d’articles variés pour créer des palettes hétérogènes selon les commandes des clients. Aujourd’hui, l’entreprise juge leur productivité actuelle insuffisante et le côté ergonomie peut être amélioré pour éviter la quantité actuelle d'accidents du travail. Notre projet va permettre, à partir des analyses et données récupérées sur le terrain, de donner des suggestions pour optimiser l’organisation des processus de picking réalisés par les employés, tout en intégrant des aspects ergonomiques pour préserver la santé au travail des collaborateurs.
 
 Notre projet vise à analyser la situation actuelle et essayer de donner des suggestions pour optimiser l’ergonomie des employés en ligne avec les commandes qui sont demandées.
 
@@ -11,7 +12,7 @@ Pour répondre à notre demande, nous avons utilisé un Solveur LPG en language 
 
 ## Objectifs du projet
 
-- Analyser le processus logistique actuel de LPC/DPC afin d’identifier ses limites et points d’amélioration.
+- Analyser le processus logistique actuel de l'entreprise afin d’identifier ses limites et points d’amélioration.
 - Modéliser les différentes étapes du processus (réception, stockage, préparation de commandes) à l’aide de PDDL.
 - Utiliser le solveur LPG pour générer des plans optimisés en fonction de contraintes définies.
 - Évaluer la productivité actuelle et proposer des pistes d’amélioration pour atteindre les objectifs de production (environ 600 commandes par jour).
@@ -41,14 +42,18 @@ En analysant les étapes résultantes proposées par le solveur, nous sommes en 
 
 En PDDL, une tâche de planification est décrite à l’aide de deux fichiers : un fichier de domaine et un fichier de problème. Le fichier de domaine définit les règles générales de l’environnement, telles que les prédicats et les actions disponibles, tandis que le fichier de problème spécifie une situation particulière avec les objets, l’état initial et l’objectif à atteindre. Le planificateur utilise ces deux fichiers pour générer automatiquement un plan permettant d’atteindre l’objectif.
 
-## Guide du Projet TO DO
+## Guide du Projet 
 
 ### 1. Branches
 - **one_model_iterations** : Le processus de développement du modèle, intégrant tous les processus d'un même domaine, est présenté ici. Il comprend six itérations dont la complexité augmente progressivement. Les cinq premières itérations sont fonctionnelles.
 - **Preparation_command** : Affiche les itérations précédant l'obtention de la version fonctionnelle du modèle de commande de préparation
+- **Tests** : Affiche les premiers modèles réalisés en PDDL
+- **Pallet Receiving** : La version fonctionnelle du modèle de l'arrivée des palettes dans l'entrepôts
+
 
 ### 2. Fichiers
 - **Documents** : Toute la documentation réalisée dans le cadre de notre projet
+- **Process 1: Pallet Receiving** : La version fonctionnelle du modèle de l'arrivée des palettes dans l'entrepôt et du trier des palettes mono & mixtes
 - **Process 2: Command Prep** : La version fonctionnelle du modèle de commande de préparation
 
 
@@ -141,7 +146,7 @@ Pour prendre en main le solveur, suivez ces étapes :
   chmod +x lpg-td.
 
 
-## Points à Améliorer TO DO
+## Points à Améliorer
 1. **Finalisation de la modélisation des quatre processus**
 À ce jour, seule une partie des processus a été entièrement modélisée. La poursuite du projet permettra d'intégrer les quatre processus afin d'obtenir une représentation plus complète et cohérente du système étudié.
 
