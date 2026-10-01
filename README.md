@@ -1,4 +1,4 @@
-# Conception d’un outil d'optimisation dans une entreprise
+# Conception d’un outil d'optimisation dans une entreprise logistique
 
 ## Présentation
 
