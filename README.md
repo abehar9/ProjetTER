@@ -1,8 +1,8 @@
-# Conception d’un outil d'Optimization Chez LPC
+# Conception d’un outil d'optimisation dans une entreprise
 
 ## Présentation
 
-Ce projet a été développé dans le cadre d’un TER (Travail d’Étude et de Recherche) de Master 1 MIASHS parcours Informatique et Cognition de l’Université Grenoble Alpes. Il propose la conception d’un outil de Optimization Chez LPC pour optimiser leur processus logistique. 
+Ce projet a été développé dans le cadre d’un TER (Travail d’Étude et de Recherche) de Master 1 MIASHS parcours Informatique et Cognition de l’Université Grenoble Alpes. Il propose la conception d’un outil pour optimiser les processus logistique dans une entreprise. 
 
 D’après nos échanges avec Mme. Landry et Mme. Sicco, la répartition des commandes dans l’entreprise est d’environ 600 commandes par jour, normalement réparties sur des agents traitant chacun environ 30 commandes par jour. Le processus logistique actuel est le suivant: réception de palettes homogènes et hétérogènes (produits mélangés), stockage par tri en réalisant des palettes homogènes à partir de palettes hétérogènes et mise en stock de celle-ci dans l’entrepôt en zone dite “rack”. Les employés vont ensuite réaliser des picking d’articles variés pour créer des palettes hétérogènes selon les commandes des clients. Aujourd’hui, l’entreprise juge leur productivité actuelle insuffisante et le côté ergonomie peut être amélioré pour éviter la quantité actuelle d'accidents du travail. Notre projet va permettre, à partir des analyses et données récupérées sur le terrain, de donner des suggestions pour optimiser l’organisation des processus de picking réalisés par les employés, tout en intégrant des aspects ergonomiques pour préserver la santé au travail des collaborateurs.
 
