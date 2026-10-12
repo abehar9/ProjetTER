@@ -165,7 +165,7 @@ Ce projet a été réalisé à des fins pédagogiques dans le cadre d’un TER �
 Il peut être utilisé, modifié ou adapté à des fins non commerciales. 
 
 ## Auteurs
-Projet développé par six étudiants du Master MIASHS – Université Grenoble Alpes : 
+Projet développé par deux étudiants du Master MIASHS – Université Grenoble Alpes : 
 - Andrea Behar 
 - Anesie Martiniani 
 
