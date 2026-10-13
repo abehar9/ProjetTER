@@ -152,5 +152,6 @@ Anesie Martiniani
 
 ### Project Owner / Supervisor:
 Ms. Landry Aurélie
-Documentation
+
+### Documentation
 The complete documentation, including the installation manual, is available in the docs/ folder.
