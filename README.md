@@ -106,12 +106,14 @@ In PDDL, a planning task is described using two files: a domain file and a probl
 Open a terminal and execute:
    ```bash
    git clone [https://github.com/abehar9/ProjetTER.git](https://github.com/abehar9/ProjetTER.git)
-   cd ProjetTER```
+   cd ProjetTER
+   ```
 
 ### 4. Usage
 To execute the solver, use the following syntax in your terminal:
 ```bash
-./lpg-td -o <domain.pddl> -f <problem.pddl> -n 1 ```
+./lpg-td -o <domain.pddl> -f <problem.pddl> -n 1
+```
 Advanced Configuration: Consult the README-LPGTD file.
 
 ### 5. Getting Started
