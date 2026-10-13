@@ -105,8 +105,8 @@ In PDDL, a planning task is described using two files: a domain file and a probl
 ### 3. Cloning the Repository
 Open a terminal and execute:
    ```bash
-   git clone [https://github.com/abehar9/ProjetTER.git](https://github.com/abehar9/ProjetTER.git)```
-   ```cd ProjetTER```
+   git clone [https://github.com/abehar9/ProjetTER.git](https://github.com/abehar9/ProjetTER.git)
+   cd ProjetTER```
 
 ### 4. Usage
 To execute the solver, use the following syntax in your terminal:
