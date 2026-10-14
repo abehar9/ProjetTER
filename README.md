@@ -1,4 +1,4 @@
-# Design of an Optimization Tool for a Logistics Company
+# Automated Planning Tool for a Process within a Logistics Company
 
 ## Presentation
 
