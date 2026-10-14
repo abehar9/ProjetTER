@@ -1,8 +1,8 @@
-# Conception of an Optimization Tool in a Logistics Company
+#Design of a Optimization Tool for a Logistics Company
 
 ## Presentation
 
-This project was developed as part of a Master 1 MIASHS Research and Study Project (TER) in Computer Science and Cognition at Université Grenoble Alpes. It proposes the design of a tool to optimize logistics processes within a company. 
+This project was developed as part of the first year internship for the Master MIASHS Research and Study Project (TER) in Computer Science and Cognition at the University of Grenoble Alpes. It proposes the design of a tool to optimize a logistical process within a private company. 
 
 Based on our discussions with Ms. Landry and Ms. Sicco, the company processes approximately 600 orders per day, typically distributed among operators who each handle about 30 orders per day. The current logistics process is as follows: receiving homogeneous and heterogeneous pallets (mixed products), sorting and storing them by building homogeneous pallets from heterogeneous ones, and placing them in warehouse storage in so-called "rack" zones. Workers then perform picking of various items to create heterogeneous pallets according to customer orders. Today, the company considers its current productivity insufficient, and ergonomics can be improved to reduce workplace accidents. Using field analyses and data collected, our project provides suggestions to optimize the organization of picking processes performed by workers while integrating ergonomic aspects to protect their occupational health.
 
