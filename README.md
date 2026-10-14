@@ -1,4 +1,4 @@
-# Design of a Optimization Tool for a Logistics Company
+# Design of an Optimization Tool for a Logistics Company
 
 ## Presentation
 
